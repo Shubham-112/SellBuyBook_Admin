@@ -17,7 +17,7 @@
             <a href="/order/orders.php">Orders</a>
         </li>
         <li>
-            <a href="#">Books</a>
+            <a href="/book/view_books.php">Books</a>
         </li>
         <li>
             <a href="#">Sets</a>
