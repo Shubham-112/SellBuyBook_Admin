@@ -9,7 +9,7 @@
 
 <html>
 <?php
-ini_set("display_errors", 1);
+include "../authencity.php";
 include "../include/head.php";
 include "../include/mysqli_connect.php";
 ?>

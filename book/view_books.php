@@ -9,6 +9,7 @@
 
 <html>
 <?php
+include "../authencity.php";
 include "../include/head.php";
 include "../include/mysqli_connect.php";
 ?>
@@ -21,6 +22,17 @@ include "../include/mysqli_connect.php";
 
         <button class="btn btn-info" onclick="window.location.href='/book/new_book.php'">Add New Book</button>
 
+
+        <h3>Search Book</h3>
+        <form action="search_book.php" method="get">
+            <div class="form-group">
+                <label for="title"><b>Title</b></label>
+                <input type="text" id="title" name="title" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        
+        
         <h3>Books on site</h3>
 
         <table class="table table-striped">

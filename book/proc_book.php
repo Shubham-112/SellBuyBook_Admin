@@ -6,6 +6,8 @@
  * Time: 17:43
  */
 
+include "../authencity.php";
+
 if(isset($_POST['title']) && $_POST['class'] && $_POST['isbn'] && $_POST['price'] && $_POST['action']){
     if(($_POST['price'] != "") && ($_POST['title'] != "") && ($_POST['isbn'] != "") && ($_POST['class'] != "") && ($_POST['action'])){
         include "../include/mysqli_connect.php";

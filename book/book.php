@@ -9,6 +9,7 @@
 
 <html>
 <?php
+include "../authencity.php";
 include "../include/head.php";
 include "../include/mysqli_connect.php";
 ?>
