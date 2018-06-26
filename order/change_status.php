@@ -5,7 +5,7 @@
  * Date: 19-06-2018
  * Time: 01:19
  */
-
+include "../authencity.php";
 include "../include/mysqli_connect.php";
 
 echo $_POST['o_id'];

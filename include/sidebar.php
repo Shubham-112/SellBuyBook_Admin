@@ -22,5 +22,9 @@
         <li>
             <a href="#">Sets</a>
         </li>
+        <hr>
+        <li>
+            <a href="/logout.php">Logout</a>
+        </li>
     </ul>
 </nav>
